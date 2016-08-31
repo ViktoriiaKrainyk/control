@@ -1,0 +1,59 @@
+#content {
+	margin: 0 auto;
+	display: block;
+	width: 1000px;
+	height: 500px;
+	position: relative;
+	border: 4px groove #00ff00;
+	border-radius: 20px;
+
+}
+
+.balls {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 3;
+	border-radius: 50%;
+	opacity: 0;
+	border: 1px solid rgba(255, 255, 255, 0);
+	box-shadow: inset 3px 2px 5px white, 2px 2px 5px black;
+	position: absolute;
+}
+
+.anime {
+	transition: opacity 900ms;
+	opacity: 1;
+}
+
+.by {
+	transition: opacity 500ms;
+	opacity: 0;
+}
+
+#counter {
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 1px 2px 5px black;
+
+}
+#counter p {
+	display: inline-block;
+	margin-right: 5%;
+	font-weight: bold;
+}
+
+#allBalls {
+	font-weight: normal;
+	color: #0000ff;
+}
+
+#deleteBall {
+	font-weight: normal;
+	color: #ff0000;
+}
+
+#ballsOnField {
+	font-weight: normal;
+	color: #00ff00;
+}
